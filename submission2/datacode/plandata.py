@@ -25,4 +25,4 @@ merged_datax['SNP Plan'] = merged_datax['SNP Plan'].fillna(merged_datax.groupby(
 merged_datax['EGHP'] = merged_datax['EGHP'].fillna(merged_datax.groupby(['Plan Type'])['EGHP'].transform('first'))
 
 
-merged_datax.to_csv("data/output/merged_datax.csv", index=False)
+merged_datax.to_csv("/Users/ryanscholte/Desktop/GitHub/HW2/data/output", index=False)
